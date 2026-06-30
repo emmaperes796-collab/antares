@@ -37,9 +37,9 @@ Inside this folder are located all files required by main process.
 `ipc-handlers` subfolder includes all IPC handlers for events sent from renderer process.  
 `libs` subfolder includes classes related to clients and **query and connection logics**.  
 **Everything above client's class level should be "client agnostic"** with a neutral and uniformed api interface
-
+      
 ### `renderer`
-
+      
 In this folder is located the structure of Vue frontend application.
 
 ## Build
