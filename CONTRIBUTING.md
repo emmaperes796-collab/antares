@@ -37,9 +37,9 @@ Inside this folder are located all files required by main process.
 `ipc-handlers` subfolder includes all IPC handlers for events sent from renderer process.  
 `libs` subfolder includes classes related to clients and **query and connection logics**.  
 **Everything above client's class level should be "client agnostic"** with a neutral and uniformed api interface
-
+      
 ### `renderer`
-
+      
 In this folder is located the structure of Vue frontend application.
 
 ## Build
@@ -85,7 +85,7 @@ Please, use if possible **template literals** to compose strings and **avoid unn
 ### Commits
 
 The commit style adopted for this project is [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).  
-Basicly it's important to have **single scoped commits with a prefix** that follows this style because Antares SQL uses [standard-version](https://github.com/conventional-changelog/standard-version) to generate new releases and [CHANGELOG.md](https://github.com/Fabio286/antares/blob/master/CHANGELOG.md) file to track all notable changes.  
+Basically it's important to have **single scoped commits with a prefix** that follows this style because Antares SQL uses [standard-version](https://github.com/conventional-changelog/standard-version) to generate new releases and [CHANGELOG.md](https://github.com/emmaperes796-collab/antares/blob/master/CHANGELOG.md) file to track all notable changes.  
 For Visual Studio Code users may be useful [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) extension.
 
 ## Debug
